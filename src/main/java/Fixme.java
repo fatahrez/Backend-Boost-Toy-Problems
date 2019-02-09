@@ -13,4 +13,17 @@
 //        * Do not modify the plus100 method
 //        * Do not modify the ONE_HUNDRED declaration
 public class Fixme {
+    public static final Fixme INST = new Fixme();
+
+    private static int ONE_HUNDRED = 100;
+
+    private int value;
+
+    public Fixme(){
+        value = ONE_HUNDRED;
+    }
+
+    public int plus100(int n){
+        return value + n;
+    }
 }
