@@ -17,7 +17,7 @@ public class Fixme {
 
     private static int ONE_HUNDRED = 100;
 
-    private int value;
+    private final int value;
 
     public Fixme(){
         value = ONE_HUNDRED;
@@ -25,5 +25,13 @@ public class Fixme {
 
     public int plus100(int n){
         return value + n;
+    }
+
+    public static int getOneHundred() {
+        return ONE_HUNDRED;
+    }
+
+    public int getValue() {
+        return value;
     }
 }
