@@ -17,7 +17,7 @@ public class Fixme {
 
     private static int ONE_HUNDRED = 100;
 
-    private int value;
+    private int value = 0;
 
     public Fixme(){
         value = ONE_HUNDRED;
@@ -33,5 +33,9 @@ public class Fixme {
 
     public int getValue() {
         return value;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
     }
 }

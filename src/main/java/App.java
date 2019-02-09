@@ -2,7 +2,7 @@ public class App {
     public static void main(String args[]){
         Fixme fixmeFunc = new Fixme();
 
-        fixmeFunc.plus100(20);
+        fixmeFunc.INST.plus100(23);
 
     }
 }
