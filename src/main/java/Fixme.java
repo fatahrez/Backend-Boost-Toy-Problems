@@ -12,6 +12,7 @@
 //        * Do not modify the constructor
 //        * Do not modify the plus100 method
 //        * Do not modify the ONE_HUNDRED declaration
+
 public class Fixme {
     public static final Fixme INST = new Fixme();
 
