@@ -39,3 +39,4 @@ public class TipCalculator {
         }
     }
 }
+//passes some tests not all. points not taken

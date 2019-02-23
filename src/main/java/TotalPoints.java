@@ -37,3 +37,4 @@ public class TotalPoints {
         return total;
     }
 }
+//complete all points taken

@@ -16,3 +16,5 @@ public class Bio {
         return dna.replaceAll("T", "U");  // Do your magic!
     }
 }
+
+//complete all points taken
