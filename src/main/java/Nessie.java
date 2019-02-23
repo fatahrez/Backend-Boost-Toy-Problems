@@ -1,3 +1,5 @@
+//link https://www.codewars.com/kata/a-strange-trip-to-the-market/train/java
+
 public class Nessie {
     public static boolean isLockNessMonster(String s) {
         //FIND THE LOCH NESS MONSTER. SAVE YOUR TREE FIDDY
