@@ -19,22 +19,22 @@
 public class TipCalculator {
     public static Integer calculateTip(double amount, String rating) {
         // tip tap
-        if(rating.toLowerCase() == "terrible"){
-            return 0;
-        }
-        else if(rating.toLowerCase() == "poor"){
-            return (int) Math.ceil(amount*0.05);
-        }
-        else if(rating.toLowerCase() == "good"){
-            return (int) Math.ceil(amount*0.1);
-        }
-        else if(rating.toLowerCase() == "great"){
-            return (int) Math.ceil(amount*0.15);
-        }
-        else if(rating.toLowerCase() == "excellent"){
+        if(rating.toLowerCase().contains("excellent")){
             return (int) Math.ceil(amount*0.2);
         }
-        else {
+        else if(rating.toLowerCase().contains("great")){
+            return (int) Math.ceil(amount*0.15);
+        }
+        else if(rating.toLowerCase().contains("good")){
+            return (int) Math.ceil(amount*0.1);
+        }
+        else if(rating.toLowerCase().contains("poor")){
+            return (int) Math.ceil(amount*0.05);
+        }
+        else if(rating.toLowerCase().contains("terrible")){
+            return 0;
+        }
+        else{
             return null;
         }
     }
