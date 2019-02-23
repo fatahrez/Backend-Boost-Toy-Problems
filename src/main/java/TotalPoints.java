@@ -1,3 +1,5 @@
+//Link to kata https://www.codewars.com/kata/total-amount-of-points/train/java
+
 public class TotalPoints {
 
     public static int points(String[] games) {
